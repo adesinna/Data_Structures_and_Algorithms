@@ -1,0 +1,61 @@
+Algorithm is a set of steps a program takes to finish a task
+
+There are many problems in computer science, there are many solutions. However,
+the field of algorithm gives the best solution to the problem.
+
+Algorithm
+
+1. Clearly defined problem statement, input, and output
+
+2. The step in the algorithm need to be in a very specific order
+
+3. The steps also need to be distinct
+
+4. The algorithm should produce a result
+
+5. It should complete in a finite amount of time
+
+
+Time Complexity is a measure of how long it takes the algorithm to run.
+
+Space Complexity is measure of the memory the algorithm needs to run.
+
+Big O, O(n) is the theoretical definition of the complexity of an algorithm as a function of the size
+
+O(n) =
+
+
+1.Linear Search
+   -Algorithm
+     - Iterate through each element in the list/array.
+     - Compare the current element with the target element.
+     - If the element is found, return its index; otherwise, continue to the next element.
+     - If the end of the list is reached and the element is not found, return a special value (e.g., -1).
+
+   -Time Complexity
+     - O(n) in the worst case, where n is the number of elements in the list.
+     - Linear search goes through each element one by one until the target is found or the end of the list is reached.
+
+   -Use Case
+     - Linear search is suitable for small lists or when the elements are not sorted.
+
+
+2.Binary Search
+   -Algorithm
+     - The array must be sorted for binary search to work.
+     - Compare the target element with the middle element of the array.
+     - If they are equal, the search is successful, and the index is returned.
+     - If the target is less than the middle element, search in the left half of the array; otherwise, search in the right half.
+     - Repeat the process on the chosen half until the element is found or the search space is empty.
+
+   -Time Complexity
+     - O(log n) in the worst case, where n is the number of elements in the list.
+     - Binary search efficiently halves the search space with each comparison.
+
+   -Use Case
+     - Binary search is efficient for large sorted lists.
+
+
+
+In summary, linear search is a simple algorithm that works on unsorted lists, while binary search is more efficient but
+requires a sorted list.
