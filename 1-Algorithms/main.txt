@@ -73,11 +73,7 @@ requires a sorted list.
 
 
 
-Data Structure
 
-This is a data storage format, it is the collection of values and the format they are stores in.
-
-The relationship between the values in the collection as well as the operations applied on the data stored in the structure.
 
 
 
