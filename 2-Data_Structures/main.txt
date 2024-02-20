@@ -1,0 +1,6 @@
+A data structure is a way of organizing, storing, and managing data in a computer so that it can be used efficiently.
+
+It defines a set of operations that can be performed on the data, as well as the relationships and rules governing
+those operations. Data structures are fundamental to computer science and play a crucial role in designing
+and implementing algorithms.
+
