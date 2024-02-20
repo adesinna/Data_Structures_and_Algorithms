@@ -22,7 +22,18 @@ Space Complexity is measure of the memory the algorithm needs to run.
 
 Big O, O(n) is the theoretical definition of the complexity of an algorithm as a function of the size
 
-O(n) =
+O(1) constant time operation, this is when the number of steps is always constant no matter the value
+
+O(log n), this is the logarithmic runtime
+
+O(n2) the number of runtime is always the square of n, this is a quadratic runtime
+
+O(n log n) this is runtime of nlogn number of operations
+
+
+
+
+
 
 
 1.Linear Search
@@ -59,3 +70,14 @@ O(n) =
 
 In summary, linear search is a simple algorithm that works on unsorted lists, while binary search is more efficient but
 requires a sorted list.
+
+
+
+Data Structure
+
+This is a data storage format, it is the collection of values and the format they are stores in.
+
+The relationship between the values in the collection as well as the operations applied on the data stored in the structure.
+
+
+

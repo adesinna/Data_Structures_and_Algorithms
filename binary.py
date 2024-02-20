@@ -11,6 +11,6 @@ def binary_search(arr, target):
     return -1
 
 
-x = binary_search(list(range(1, 19999)), 129)
+x = binary_search(list(range(19999)), 6)
 
 print(x)
