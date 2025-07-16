@@ -4,3 +4,72 @@ It defines a set of operations that can be performed on the data, as well as the
 those operations. Data structures are fundamental to computer science and play a crucial role in designing
 and implementing algorithms.
 
+Data Structures: Key Concepts
+A data structure is a specialized way to store, organize, and manage data in a program to enable efficient operations.
+
+Core Operations
+All data structures support these fundamental operations:
+
+Access/Read
+
+Retrieve a value (e.g., by index or key).
+
+Example: Accessing array[3] or dict["key"].
+
+Search
+
+Check if a value exists in the structure.
+
+Example: Finding an element in a list or tree.
+
+Insert
+
+Add a new value at any position (e.g., append, prepend, or arbitrary insertion).
+
+Example: Inserting a node in a linked list.
+
+Delete
+
+Remove a value from the structure.
+
+Example: Popping a value from a stack or deleting a tree node.
+
+Efficiency of Operations
+Performance varies by data structure. Key metrics:
+
+Data Structure	Access	Search	Insert	Delete
+Array	O(1)	O(n)	O(n)	O(n)
+Linked List	O(n)	O(n)	O(1)*	O(1)*
+Hash Table	O(1)	O(1)	O(1)	O(1)
+Binary Search Tree	O(log n)	O(log n)	O(log n)	O(log n)
+*Assuming you have a reference to the node.
+
+Choosing a Data Structure
+Consider:
+
+Access patterns: Frequent searches? Use a hash table.
+
+Insertion/deletion speed: Linked lists excel at dynamic operations.
+
+Memory overhead: Trees use more space than arrays.
+
+Common Data Structures
+Arrays
+
+Fast access, fixed size (static) or dynamic (e.g., Python lists).
+
+Linked Lists
+
+Efficient inserts/deletes, but slow random access.
+
+Stacks/Queues
+
+LIFO (stack) vs. FIFO (queue) order.
+
+Trees (e.g., BST, AVL)
+
+Hierarchical data; efficient for sorted operations.
+
+Graphs
+
+Model relationships (e.g., social networks).
