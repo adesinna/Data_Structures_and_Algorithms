@@ -1,0 +1,9 @@
+Dictionaries are key value pairs, they make use of hash function to store they in memory, unlike list you do not
+need to know its index to get a value, just with the key you can get the value.
+
+Hash function, converts the key:value into  a collection in memory space.
+
+To lookup, delete, insert and search, they have O(1) time complexity and space complexity of O(n)
+
+A hash collision occurs when two different keys in a hash table (like a Python dictionary) produce the same hash value,
+meaning they would map to the same index in the underlying array.

@@ -1,0 +1,17 @@
+What is a linked list ? It contains a set of nodes, each node contains two elements, one the data and a pointer to the
+next node. The first element is called the head of the list and the last element is the tail which has a pointer to
+null.
+
+Why linked list ?
+Unlike dictionaries, where they are not ordered, in linked list they are ordered.
+
+To put it in the beginning of the linked list, O(1)
+
+To append to the inked list, O(n)
+
+To search is O(n)
+
+To insert is O(n)
+
+To delete is O(n)
+

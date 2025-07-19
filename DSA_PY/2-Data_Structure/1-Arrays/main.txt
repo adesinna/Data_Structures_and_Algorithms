@@ -1,0 +1,49 @@
+ 🧠 What is an Array?
+
+An array is a collection of elements stored in a fixed order. Each element can be accessed by its index (position).
+
+Think of it like a row of boxes:
+
+
+Index:    0    1    2    3
+Values: [10,  20,  30,  40]
+
+
+
+
+Arrays in Python
+
+Python doesn’t have a built-in `array` like C or Java, but you can use:
+
+1. List (most common in Python)
+
+* Works like an array.
+* Can hold numbers, strings, or anything.
+* Very flexible.
+
+# Creating a list (array)
+arr = [10, 20, 30, 40]
+
+# Access elements
+print(arr[0])  # Output: 10
+
+# Change element
+arr[1] = 25
+
+# Add element
+arr.append(50)
+
+# Remove element
+arr.pop()  # removes last element
+
+
+They help you:
+
+* Store data
+* Access it quickly
+* Perform operations efficiently
+
+
+Python lists are dynamic arrays that grow automatically using over-allocation. You can append or remove elements efficiently.
+In contrast, NumPy arrays are static—their size is fixed after creation.
+Resizing a NumPy array creates a new array. NumPy prioritizes speed and memory efficiency over flexibility.

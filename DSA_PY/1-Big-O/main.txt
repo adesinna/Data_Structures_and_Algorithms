@@ -1,0 +1,12 @@
+Big O notation describes how long an algorithm run, just how does it perform when the set goes larger. That is how many
+operations is needed as the number of elements increases.
+
+1. Linear Time
+    When it takes n number of operations for n number of elements, we say it has a linear time, denoted O(n)
+
+2. Constant Time
+    When it takes exactly same number of operations no matter the size of the element, this is called constant time
+    O(1) # note since py get the length from memory storage it is also a constant time, also accessing an element too
+
+3. Quadratic Time
+    This is when it takes n square number of operations for n numbers of elements
